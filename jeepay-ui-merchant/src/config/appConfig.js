@@ -61,4 +61,14 @@ export const asyncRouteDefine = {
     defaultPath: '/divisionRecord',
     component: () => import('@/views/division/record/DivisionRecordPage.vue'),
   }, // 分账记录
+
+  // 商户进件相关页面
+  MchApplyFormPage: {
+    defaultPath: '/mchApply/form',
+    component: () => import('@/views/mchApply/MchApplyForm.vue'),
+  }, // 商户进件申请表单
+  MchApplyListPage: {
+    defaultPath: '/mchApply/list',
+    component: () => import('@/views/mchApply/MchApplyList.vue'),
+  }, // 商户进件申请列表
 }
